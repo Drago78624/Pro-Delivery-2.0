@@ -11,10 +11,9 @@ li{
 }
 .tag-line{
     width: 100%;
-    height: 15px;
+    height: 30px;
     background-color: #232323;
     display: flex;
-    justify-content: center;
 }
 .tag-line-icon-text-container{
     width: 60%;
@@ -22,25 +21,26 @@ li{
     /* background-color: blue; */
     display: flex;
     align-items: center;
+    margin-left: 70px;
 }
 .ti-location-pin{
     color: white;
-    font-size: 10px;
+    font-size: 20px;
 }
 .tag-line-text{
-    font-size: 9px;
+    font-size: 18px;
     color: white;
     margin-left: 6px;
 }
 .title-bar-container{
     width: 100%;
-    height: 60px;
+    height: 120px;
     background-color: #F8F9FA;
     display: flex;
     justify-content: center;
 }
 .title-bar-logo-info-container{
-    width: 60%;
+    width: 88%;
     height: 100%;
     /* background-color: teal; */
     display: flex;
@@ -48,13 +48,13 @@ li{
     align-items: center;
 }
 .title-bar-info-container{
-    width: 60%;
+    width: 65%;
     height: 60%;
     /* background-color: thistle; */
     display: flex;
 }
 .title-bar-logo-container{
-    font-size: 20px;
+    font-size: 35px;
 }
 .logo > span{
     color: #343A40;
@@ -74,11 +74,11 @@ li{
     align-items: center;
 }
 .ti-mobile{
-    font-size: 25px;
+    font-size: 40px;
     color: #21C87A;
 }
 .text-mobile-number-container{
-    font-size: 8px;
+    font-size: 15px;
 }
 .icon-2-text-container{
     width: 35%;
@@ -89,11 +89,11 @@ li{
     align-items: center;
 }
 .ti-email{
-    font-size: 25px;
+    font-size: 40px;
     color: #21C87A;
 }
 .text-email-container{
-    font-size:8px;
+    font-size:15px;
 }
 .icon-3-text-container{
     width: 35%;
@@ -104,47 +104,47 @@ li{
     align-items: center;
 }
 .ti-time{
-    font-size: 25px;
+    font-size: 40px;
     color: #21C87A;
 }
 .text-timings-container{
-    font-size: 8px;
+    font-size: 15px;
 }
 .common > span > span{
     color: #6C8ABD;
 }
 .nav-bar-container{
     width: 100%;
-    height: 50px;
+    height: 70px;
     /* background-color: saddlebrown; */
     display: flex;
     justify-content: center;
 }
 .nav-bar{
-    width: 60%;
+    width: 88%;
     height: 100%;
     background-color: #21C87A;
     border-radius: 5px;
 }
 .nav-bar-items{
-    width: 40%;
+    width: 35%;
     height: 100%;
     /* background-color: salmon; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 10px;
+    font-size: 15px;
     color: white;
 }
 .text-img-main-container{
     width: 100%;
-    height: 300px;
+    height: 500px;
     /* background-color: violet; */
     display: flex;
     justify-content: center;
 }
 .text-img-container{
-    width: 60%;
+    width: 88%;
     height: 100%;
     /* background-color: turquoise; */
     display: flex;
@@ -152,21 +152,21 @@ li{
 }
 .main-text-container{
     width: 55%;
-    height: 80%;
+    height: 70%;
     /* background-color: yellow; */
 }
 .header-container{
-    font-size: 35px;
+    font-size: 55px;
 }
 .text-container{
-    font-size: 10px;
+    font-size: 17px;
     color: #6C8ABD;
 }
 .text-buttons{
-    width: 50%;
-    height: 50px;
+    width: 58%;
+    height: 85px;
     /* background-color: brown; */
-    font-size: 8px;
+    font-size: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -175,17 +175,18 @@ li{
     background-color: #21C87A;
     width: 53%;
     height: 65%;
-    border-radius: 25px;
+    border-radius: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
     
 }
 .text-button-2{
     background-color: #232323;
     width: 42%;
     height: 65%;
-    border-radius: 25px;
+    border-radius: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,10 +194,113 @@ li{
 }
 .img-container{
     width: 45%;
-    height: 80%;
+    height: 65%;
     /* background-color: aquamarine; */
 }
 .img-container > img{
     width: 100%;
     height: 100%;
 }
+.about-us-img-text-main-container{
+    width: 100%;
+    height: 500px;
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us-img-text-container{
+    width: 88%;
+    height: 80%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-between;
+}
+.about-us-img-container{
+    width: 49%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.about-us-img-container > img{
+    width: 100%;
+    height: 100%;
+}
+.about-us-text-container{
+    width: 49%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+}
+.about-us-header-text-container{
+    width: 100%;
+    height: 65%;
+    /* background-color: cornflowerblue; */
+}
+.about-us-header-text-container > .heading{
+    font-size: 40px;
+    color: #343A40;
+    font-weight: 700;
+}
+.about-us-text{
+    font-size: 14px;
+    color: #6C8ABD;
+}
+.vision-mission-values-text-main-container{
+    width: 100%;
+    height: 250px;
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vision-mission-values-text-container{
+    width: 88%;
+    height: 80%;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: space-between;
+}
+.vision-text-main-container{
+    width: 33%;
+    height: 100%;
+    /* background-color: red; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+.mission-text-main-container{
+    width: 33%;
+    height: 100%;
+    /* background-color: red; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+.values-text-main-container{
+    width: 33%;
+    height: 100%;
+    /* background-color: red; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.vision-heading , .mission-heading , .values-heading{
+    font-size: 35px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    color: #343A40;
+}
+.vision-text , .mission-text , .values-text{
+    color: #6C8ABD;
+    font-size: 15px;
+}
+/* .vision-text , .mission-text , .values-text > span{
+    display: flex;
+    justify-content: center;
+} */
+
+
